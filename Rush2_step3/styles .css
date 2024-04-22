@@ -1,0 +1,63 @@
+.title {
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  background-color: rgb(182, 152, 196);
+  padding: 15px;
+  border-radius: 15PX;
+  border-style: groove;
+  text-shadow: 1px 1px 2px white;
+}
+
+h1 {
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+  
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+.panelcompress {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    background-color: rgb(152, 196, 192);
+    padding: 15px;
+    border-radius: 15PX;
+    text-align: center;
+    text-shadow: 1px 1px 2px white;
+    border-style: groove;
+}
+
+.output {
+    overflow: scroll;
+    margin: 1rem 0;
+    height: 200px;
+}
+
+#dwl:hover {
+  cursor: pointer;
+  transform:scale(1.08);
+}
+
+#comp:hover {
+  cursor: pointer;
+  transform:scale(1.08);
+}
+
+#myfiles:hover {
+  cursor: pointer;
+  transform:scale(1.08);
+}
